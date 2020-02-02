@@ -66,4 +66,3 @@ def sp500co_daily_yahoo(start_date):
         stocks[key].fillna(method='bfill', axis=0, inplace=True)
 
     return stocks
-
